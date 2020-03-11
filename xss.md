@@ -1,26 +1,25 @@
-Cross Site Scripting aka XSS
-
-
 Hi,
 
-I found a reflected XSS on `xxx.xxxxxxxxxxxx.xxx`.
+I found a reflected XSS on `[]`.
 
 
 ## Description
 
 The parameter `yyy` is missing sanitization in the following url:  
-`http://xxx.xxxxxxxxxxxx.xxx/............`
+`[]`
 
 Payload:  
 `.......`
 
-Which render the following code:  
-`......`
-
 
 ## PoC
 
-{}
+1- Open the following link
+```
+```
+2- XSS will trigger
+
+[ss]
 
 
 ## Risk
@@ -40,8 +39,6 @@ Which render the following code:
 https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)
 
 
-
-
 Best regards,
 
-Gwen
+@Splint3r7
